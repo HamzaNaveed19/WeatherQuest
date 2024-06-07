@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/WeatherQuest/static/css/main.719735a0.css",
+    "main.js": "/WeatherQuest/static/js/main.3fe65313.js",
+    "static/js/453.63261c35.chunk.js": "/WeatherQuest/static/js/453.63261c35.chunk.js",
+    "static/media/Background.jpg": "/WeatherQuest/static/media/Background.a3f7d6a0d9459a0150c3.jpg",
+    "static/media/Location.png": "/WeatherQuest/static/media/Location.e5f07794d6cd742afa91.png",
+    "index.html": "/WeatherQuest/index.html",
+    "main.719735a0.css.map": "/WeatherQuest/static/css/main.719735a0.css.map",
+    "main.3fe65313.js.map": "/WeatherQuest/static/js/main.3fe65313.js.map",
+    "453.63261c35.chunk.js.map": "/WeatherQuest/static/js/453.63261c35.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.719735a0.css",
+    "static/js/main.3fe65313.js"
+  ]
+}
