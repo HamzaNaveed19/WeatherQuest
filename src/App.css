@@ -1,0 +1,30 @@
+body {
+  overflow: hidden; /* Hide scrollbar from the browser */
+}
+
+.background-image {
+  background-image: url('./images/Background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full height of the viewport */
+  width: 100%;
+}
+
+.WeatherToDoList {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh; /* Full height of the viewport */
+}
+
+.WeatherToDoList > .WeatherApp {
+  flex: 4; /* Weather section takes up 40% of the space */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.WeatherToDoList > .TodoList {
+  flex: 6; /* To-do list section takes up 60% of the space */
+  padding: 20px;
+  box-sizing: border-box;
+}

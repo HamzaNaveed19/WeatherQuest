@@ -1,0 +1,49 @@
+.navbarContainer {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center;
+    background-color: #08131fcb; /* Dark blue */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    border-radius: 5px;
+    height: 105px;
+  }
+  
+  .userInfo {
+    text-align: center;
+    flex-grow: 1; /* Allow the username to grow and take available space */
+  }
+  .username {
+    font-size: 30px;
+  }
+  
+  .glow {
+    animation: glow 1.5s ease-in-out infinite alternate;
+    font-size: 45px;
+  }
+  
+  .dateTime {
+    text-align: right;
+  }
+  
+  .dateHeading,
+  .timeHeading {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .date,
+  .time {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #50ffd3, 0 0 20px #50ffd3, 0 0 30px #50ffd3;
+    }
+    to {
+      text-shadow: 0 0 20px #069bf1, 0 0 30px #069bf1, 0 0 40px #069bf1;
+    }
+  }
+  
